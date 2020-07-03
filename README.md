@@ -1,3 +1,3 @@
 # Projetos
 
-Repositorio criado para expor e guarda projetos
+Repositorio criado para expor e guarda projetos.
