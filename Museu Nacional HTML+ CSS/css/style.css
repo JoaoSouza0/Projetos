@@ -1,12 +1,11 @@
 *{
-  
     margin:0;
     padding:0;
 }
 
 /*******************Inicio nav /*******************/
 body{
-
+    background-color: rgba(250, 223, 195, 0.342);
     font: 12px "Lucida Grande", "Licida Sans Unicode",Arial,sans-serif;
 }
 
@@ -17,6 +16,7 @@ header{
 }
 
 #EE{
+   
     margin: auto;
     width: 1100px;
     position: relative;
