@@ -1,0 +1,89 @@
+*{
+    border: 1px solid red;
+    margin:0;
+    padding:0;
+}
+
+/*******************Inicio nav /*******************/
+body nav{
+
+    height: 200px;
+    background-image: url(Imagens/fundo.png);
+}
+
+#EE{
+    margin: auto;
+    width: 1100px;
+    position: relative;
+    top: -150px;
+    
+
+}
+#img{
+    margin-top: 12px;
+
+}
+
+#container{ 
+    display: flex;
+    justify-content: space-between;
+}
+li{
+list-style: none;
+}
+
+
+#navegacao a{
+    text-decoration: none;
+    padding: 15px;
+    float: left;
+    color:rgb(166, 110, 17);
+    font-size: 15px;  
+}
+/*******************fim nav /*******************/
+
+/*******************Inicio container /*******************/
+
+#container2{
+
+    margin-top: 25px;
+    display: flex;
+    justify-content: space-between;
+}
+
+h4{
+    color: green;
+}
+#row1{
+    width: 720px;
+
+}
+
+#row1 div{
+    margin: 10px 0px;
+    margin-left: 24px;
+    width: 330px;
+    float: left;
+}
+
+#row1 li{
+    margin-left:10px ;
+}
+
+/*******************fim container /*******************/
+
+/*******************inicio nav lateral /*******************/
+aside{
+
+    width: 350px;
+}
+
+#submit{
+    margin-left: 100px ;
+}
+
+#photo{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
