@@ -10,13 +10,13 @@
 </head>
 
 <body>
-    <nav></nav>
+    <header></header>
 
     <div id="EE">
 
-        <div id="container">
+        <nav id="container">
 
-            <div id="img">
+            <div id="logo">
                 <img src="Imagens/logo.png" alt="">
             </div>
 
@@ -43,7 +43,7 @@
 
             </ul>
 
-        </div>
+        </nav>
 
         <div id="container2">
 
@@ -95,17 +95,23 @@
 
                 <img src="Imagens/depoimento.png" alt="">
 
-                <div>
-                    <h3>Faça uma visita</h3>
+                <div id="visita">
+                    <h4>Faça uma visita</h4>
+                    <form action="">
+                        <fieldset>
+                            <legend>Selecione uma data</legend>
 
-                    <label for="data">Data:</label>
-                    <input type="date" name="data">
+                            <label for="data">Data:</label>
+                            <input type="date" name="data">
 
-                    <label for="QTpessoas">Qtd. pessoas</label>
-                    <input type="number" name="QTpessoas" style="width: 35px;">
+                            <label for="QTpessoas">Qtd. pessoas</label>
+                            <input type="text" name="QTpessoas" style="width: 20px;">
 
-                    <input type="submit" value="Validar visita" Id="submit">
+                        </fieldset>
 
+                        <input type="submit" value="Validar visita" Id="submit">
+
+                    </form>
                 </div>
 
                 <h3 style="flex-grow: 5;">Galeira de fotos</h3>
