@@ -1,0 +1,104 @@
+/*th,td{ Estilizando tabelas
+
+    border: solid 1px grey;
+    text-align: center;
+    font-size: 20px;
+   
+}
+table{
+
+width: 600px;
+border-collapse: collapse;
+
+}
+tr.silver{
+
+    background-color: silver;
+
+}
+th{
+    background-color: grey;
+}
+
+tr:hover{
+
+    background-color: grey;
+
+} */
+
+/*fieldset{ Estilizando fornulario part 1
+
+
+    border: solid 1px #ccc;
+    padding: 10px;
+}
+
+label{
+    display: block;
+    cursor: pointer;
+}
+
+input[type="text"] {
+width: 300px;
+}
+
+legend{
+
+    font-weight: bolder;
+    font-size: 18px;
+
+}*/
+
+body{
+background-image: url("imagens/fundo.jpg");
+background-repeat: repeat-x;
+}
+
+#principal{
+    width:400px;
+    height:300px;
+    margin: 0 auto;
+    margin-top: 120px;
+    background-color: rgba(255, 255, 255, 0.3);
+    border-radius:30px;
+    text-align: center;   
+}
+
+img{
+    width: 120px;
+    height: 120px;
+    margin-top: -60px;
+    margin-bottom: 30px;
+
+}
+#principal div{
+    margin:auto;
+    width: 80%; 
+    margin-top: 4px;  
+}
+
+input{
+    background-repeat: no-repeat;
+    padding: 8px;
+    padding-left: 30px;
+    width: 86%;
+    background-position: 2px;
+}
+
+input[type="text"]{
+    background-image: url("imagens/icone-usuario.png");
+}
+
+input[type="password"]{
+    background-image: url("imagens/icone-cadeado.png");
+}
+input[type="submit"]
+{
+    background-color: orange;
+    border: #db7b00;
+    width: 100%;
+    color:white;
+    font-size: medium;
+    padding:8px; 
+    
+}

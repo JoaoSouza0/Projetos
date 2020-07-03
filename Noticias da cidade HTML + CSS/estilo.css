@@ -1,0 +1,148 @@
+    *{
+       margin: 0px;
+       padding: 0px;
+       font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+       font-size: 16px;
+       
+    }
+
+/********************Inicio cabeçalho********************/  
+    #cabeçalho {
+        background-image: url(imagens/fundo.png);
+        background-repeat: repeat-x;
+        height: 250px;
+    }
+
+    .tamanho {
+        width: 750px;
+        margin: auto;
+    }  
+    
+    #logo {
+        padding: 20px;
+        padding-left: 0;
+    } 
+
+    #detop {
+        float: right;
+    }
+
+    ul{
+        list-style: none;
+        padding: 0px;
+        z-index: 1;
+        background-color: white;
+        
+        
+    } 
+    .ul{
+        float: left;
+        position: relative;
+        bottom: 60px;
+       }
+
+    
+    #nav a{
+        background:rgb(178, 0, 48) url(imagens/divisor.png) repeat-y right;
+        color: white;
+        padding: 10px 17px;  
+        float: left;
+        text-decoration: none;
+
+    }
+
+    #nav a:hover, #nav .page{
+        background-color: rgb(216, 8, 63);
+    }
+/********************Fim cabeçalho********************/
+
+/********************Inicio materias********************/  
+
+#navlateral{    
+    
+    background-image: url(imagens/fundo-caixa.png);
+    width: 160px;
+    float: left;
+    padding: 10px;
+}
+
+#navlateral h3{
+
+    background-color:rgb(41, 73, 112);
+    color: white;
+    text-indent: 5px;
+    margin: 0px;
+
+}
+
+#navlateral a{
+   text-decoration: none;
+   color: black;
+   padding: 10px;
+   text-indent: 5px;
+
+
+    
+}
+#navlateral ul{
+    padding: 2px;
+    margin-left: 8px;
+    width: 150px;
+}
+
+.slogan{
+
+background-color: rgb(41, 73, 112);
+color: white;
+font-size: 20px;
+font-weight: 600;
+padding: 3px;
+
+
+}
+
+.modelo-materia{
+    float:right;
+    width: 570px;
+    margin-bottom: 10px;
+    
+}
+.materias{
+    float: right;
+    padding:10px;
+    margin-left: 25px;
+    width: 240px;
+    background-image: url(imagens/fundo-caixa.png);
+}
+.materias img{
+    width: 100%;
+}
+
+#mundo img{
+    float: left;
+    margin-right: 8px;
+    width: 80px;
+} 
+
+#mundo div{
+    margin:10px;
+     display: block;
+    background-color: white;
+}
+.itens{
+margin-top: 10px;
+background-color: white;
+}
+
+
+
+
+
+
+
+
+/*notes - No boards ja filtrar o sprint e o milestone
+
+para clonar - vstudio - team site - parte amarela
+
+gitlab - ir em project overview > criar a url htpp e  >  colar na parte amarela */
