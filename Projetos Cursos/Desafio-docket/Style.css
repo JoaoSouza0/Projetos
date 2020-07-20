@@ -1,0 +1,255 @@
+*{
+    margin: 0;
+    padding: 0;
+   
+}
+
+body{
+    
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+header{
+    height: 200px;
+    background-color: #545488;
+    width: 100%;
+    
+}
+header img{
+    width: 100%;
+    height: 100%;
+}
+
+#container{
+    width: 79%;
+    margin: auto;
+    position: relative;
+    bottom: 70px;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    column-gap: 20px;
+}
+
+#container-form{    
+    background-color: #ffffff;
+    border-radius: 10px;
+    border-bottom:1px solid #888888 ;
+    height: 105%;
+}
+
+#container-ficha{
+    background-color: #ebf0f4;
+    border-radius: 10px;
+    border-bottom:1px solid #888888 ;
+    height: 105%;
+    display: grid;
+    
+}
+#container-form div ,
+#container-ficha div{
+    margin-top: 5%;
+    margin-left: 5%;
+}
+#form div{
+    margin-top: 27px;
+}
+span{
+
+    color:red;
+
+}
+.textinput{
+    display: block;
+    width: 94%;
+    height: 40px;
+    margin-top: 10px;
+    font-size: 17.5px;
+    text-indent: 5px;
+}
+#divtel{
+    display: flex;
+}
+
+#divtel div{
+    margin: 0;
+}
+.telefone{
+    display: block;
+    width: 80%;
+    height: 40px;
+    font-size: 17.5px;
+    text-indent: 5px;
+}
+
+#submit{
+    background: #4f81b7;
+    border: 1px solid transparent;
+    border-radius: 30px;
+    color: white;
+    font-size: 14px;
+    padding: 0 15px;
+    outline: none;
+    width: 88px;
+    height: 40px;
+}
+#ficha{
+    height: 300px;
+}
+
+
+#photos-wrapper{
+   margin: auto;
+    width: 450px;
+    
+}
+#item img{
+    width: 80%;
+    height: 100%;
+    object-fit: cover;
+    border: 4px solid white;
+}
+#item{
+
+    display: flex;
+    overflow-x: auto;
+    overflow-y: hidden;
+    scroll-snap-type: x mandatory;
+    justify-content: space-between;
+}
+.itens{
+    flex: none;
+    width: 50%;
+    scroll-snap-align: start;
+}
+
+
+
+@media (min-width:750px) and (max-width:1210px){   
+    
+    #container{
+        min-width: 750px;
+        margin: auto;
+        
+        row-gap: 20px;
+    }
+
+    #container-form, #container-ficha{
+        
+        height: 650px;
+       }
+      
+       .textinput{
+        height: 31px;
+        font-size: 14px; 
+       }
+        #divtel{
+            display:block ;
+            
+        }
+        #divtel div{
+            margin-top: 15px;
+        }
+        .telefone{
+            display: block;
+            width: 150px;
+            height: 31px;
+            font-size: 14px; 
+        }
+        .itens{
+            flex: none;
+            width: 100%;
+            scroll-snap-align: start;
+        }
+        #photos-wrapper{
+            margin:auto;
+            width:250px;
+            height: 250px;
+        }
+        img{
+            width: 90%;
+            height: 100%;
+            object-fit: cover;
+        }
+}
+
+@media (max-width:749px)
+{
+    
+   header{
+    width: 100%;
+   }
+    #container{
+        max-width: 400px;
+        margin: auto;
+        grid-template-columns: repeat(1,1fr);
+        row-gap: 20px;
+    }
+   
+   #container-form{
+    height: 700px;
+   }
+   #container-ficha{
+       height: 500px;
+   }
+    
+   .textinput{
+    height: 31px;
+    font-size: 14px; 
+   }
+    #divtel{
+        display:block ;
+        
+    }
+    #divtel div{
+        margin-top: 15px;
+    }
+    .telefone{
+        display: block;
+        width: 94%;
+        height: 31px;
+        font-size: 14px; 
+    }
+    
+    #formbyscript{
+        height: 70%;
+        font-size: 14px;
+    }
+    #ficha
+    {
+       height: 90%;
+    }
+
+    #photos-wrapper{
+        position: relative;
+        left:15%;
+        width:70%;
+        height: 70%;
+        bottom: 10%;
+    
+    }
+    img{
+        width: 90%;
+        height: 100%;
+        object-fit: cover;
+    }
+    .itens{
+        flex: none;
+        width: 100%;
+        scroll-snap-align: start;
+    }
+}
+ 
+footer{
+    height: 62px;
+    background: linear-gradient(116deg, #5A5789 0%, #2D2C45 100%);
+    display: grid;
+    place-content: center;
+    
+    
+}
+ footer span{
+    font-weight:bold;
+    color: white;
+    text-align: center;
+ }
+  
